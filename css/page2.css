@@ -1,0 +1,935 @@
+html{
+    padding:0;
+    margin:0;
+    border:0;
+    
+}
+body{
+    
+    font-size;16px;
+    margin:0; padding:0;
+    width:100%;
+    position:relative;
+    background-color: #555555;
+    
+    
+}
+
+.container{
+    
+    height:1410px;
+    width:100%;
+    overflow-y: hidden;
+}
+
+.colorBan1{
+    
+    position: absolute;
+    height:77px;
+    width:100%;
+    background:grey;
+    
+}
+
+#colorbar1{
+    position: relative;
+    top:78px;
+    background: white;
+    height:4px;
+    
+}
+#colorbar3{
+    
+    position: relative;
+    top:78px;
+    background: black;
+    height:30px;
+}
+
+.colorBan2{
+    
+    position: absolute;
+    height: 177px;
+    background: grey;
+    width: 100%;
+    top:1232px;
+    
+}
+
+#colorbar4{
+    
+    position: absolute;
+    background:white;
+    height:4px;
+    width:100%;
+}
+
+#colorbar2{
+    
+    background: black;
+    height: 40px;
+}
+
+
+.headBanner1{
+    
+    position: relative;
+    margin:auto;
+    height:45.50px; 
+    width:365px;
+    top:10px;
+    Background:black;
+    border-radius:10px;
+    left:-279px;
+}
+
+.headBanner1 img{
+    
+    position: relative;
+    left:12px;
+    top:10px;
+}
+
+
+.headBanner2{
+    
+    position: relative;
+    margin:auto;
+    height: 45.50px;
+    width: 553.69px; 
+    left:185px;
+    top:-35px;
+    background:black;
+    border-radius:10px;
+    
+}
+
+.headBanner2 img{
+    
+    position: relative;
+    left:10px;
+    top:23px;
+    
+}
+
+#rssbtn, #facebookbtn,#google-plusbtn,#twitterbtn,#youtubebtn{
+    position: relative;
+    top:-29px;
+    left:424px;
+    padding: 0;
+    border: none;
+    background: none;
+    
+}
+
+
+
+#facebookbtn{left: 426px;}
+
+#google-plusbtn{left:429px;}
+
+#twitterbtn{left:431px;}
+
+#youtubebtn{left:434px;}
+
+.headBanner2 #searchbarimg{
+    position: relative;
+    top:-27.5px;
+    left:236px;
+    
+}
+
+#submitbtn {
+    position: relative;
+    font-size:9px;
+    background-color: #555555;
+    border-style: none;
+    color:white;
+    text-align: center;
+    top:-33px;
+    left:286px;
+    height:12.0px;
+    width: 43px;
+    z-index:100;
+
+}
+#searchbarInput{
+    
+    position: relative;
+    font-size: 9px;
+    top:-34.0px;
+    left:135px;
+    height:7.5px;
+    width:87px
+
+}
+
+
+#About,#FAQ{ 
+    
+    position: absolute;
+    font-family: microsoft sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: none;
+    color:white;
+    top:17px;
+    left: 17px;
+
+}
+
+#FAQ{;
+    
+    Left:60px; top:17px;}
+
+
+.navigation{
+    
+    position: relative;
+    margin:auto;
+    height: 80.59px;
+    width: 388.44px;
+    background:#555555;
+    left:267px;
+    top:-32px;
+}
+
+.navigation #homebtn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 78.00px;
+    top:0px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: black;
+    border-style: none;
+    color:white;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-decoration: none;
+    text-align: center;
+    line-height: 25px;
+  
+}
+
+.navigation #LogInbtn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 78.00px;
+    top:27.00px;
+    left:0px;
+    background-color: black;
+    border-style: none;
+    text-decoration: none;
+    color:#d3222a;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    vertical-align: middle;
+    text-align: center;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+ 
+  
+}
+
+.navigation #subscribebtn{
+    
+    position: absolute;
+    height:25.65px;
+    width: 78.00px;
+    top:53.80px;
+    left:0.0px;
+    background-color: black;
+    border-style: none;
+    color:#ecc805;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    text-decoration: none;
+    font-size:.6em;
+    vertical-align: middle;
+    text-align: center;
+    text-align: center;
+    line-height: 25px;
+    
+  
+}
+
+.navigation #PS4btn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:81px;
+    top: 0px;
+    background-color: black;
+    border-style: none;
+    color:white;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+
+   
+}
+
+.navigation #PS3btn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:143px;
+    top: 0px;
+    background-color: black;
+    border-style: none;
+    color:white;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+
+   
+}
+
+.navigation #XboxOnebtn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:205px;
+    top: 0px;
+    background-color: black;
+    border-style: none;
+    color:white;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+
+   
+}
+
+.navigation #Xbox360btn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:267px;
+    top: 0px;
+    background-color: black;
+    border-style: none;
+    color:white;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+
+   
+}
+
+.navigation #Switchbtn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:329px;
+    top: 0px;
+    background-color: black;
+    border-style: none;
+    color:white;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+
+   
+}
+
+.navigation #WiiUbtn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:142.50px;
+    top: 27px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    border-style: none;
+    color:white;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+  
+}
+
+.navigation #Wiibtn{
+    
+     position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:80.50px;
+    top: 27px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    border-style: none;
+    color:white;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.navigation #PSVitabtn{
+    
+     position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:204.50px;
+    top: 27px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    border-style: none;
+    color:white;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.navigation #DSbtn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:266.50px;
+    top: 27px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    border-style: none;
+    color:white;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.navigation #Androidbtn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:328.50px;
+    top: 27px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    border-style: none;
+    color:white;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.navigation #PCbtn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:80.50px;
+    top: 54px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    background-color: black;
+    border-style: none;
+    color:white;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.navigation #Techbtn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:142.50px;
+    top: 54px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    border-style: none;
+    color:white;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+    text-decoration: none;
+
+}
+
+.navigation #Merchbtn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:204.50px;
+    top: 54px;
+    vertical-align: middle;
+    text-align: center;
+    background-color: black;
+    text-decoration: none;
+    border-style: none;
+    color:white;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.navigation #Retrobtn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:266.50px;
+    top: 54px;
+    background-color: black;
+    text-decoration: none;
+    border-style: none;
+    color:white;
+    text-align: center;
+    vertical-align: middle;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.navigation #IOSbtn{
+    
+    position: absolute;
+    height:24.65px;
+    width: 59.00px;
+    left:328.50px;
+    top: 54px;
+    background-color: black;
+    text-decoration: none;
+    border-style: none;
+    color:white;
+    vertical-align: middle;
+    text-align:center;
+    font-family: microsoft sans serif;
+    font-weight: normal;
+    font-size:.6em;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+
+
+.content1{
+    height: 294.50px;
+    width: 921.63px;
+    top:-31.00px;
+    position: relative;
+    background-color:black;
+    margin: auto;
+    
+}
+
+.content1 img{
+    
+    padding-top:22.7px;
+}
+
+.content2{
+    height: 695.00px;
+    width: 921.64px;
+    top:-31.50px;
+    position: relative;
+    background-color:black;
+    margin:auto; 
+}
+
+.content2inner{
+    height: 655.00px;
+    width: 676px;
+    top:-700px;
+    position: relative;
+    background-color:whitesmoke;
+    padding:15px;
+    border: thick solid #555555;
+    opacity: 0.9;
+    margin:auto;
+
+
+}
+.content2 a{
+    
+    position: relative;
+    left: 306px;
+    color: #d3222a;
+
+}
+
+p{
+
+    font-family:"Times New Roman",Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    
+
+}
+#TLOUreviewText{
+    position: absolute;
+    left: 234px;
+    font-size: 20px;
+    
+}
+#ReviewWordText{
+    position: absolute;
+    font-family:sans-serif;
+    font-weight: bold;
+    color:#d3222a;
+    top:15px;
+    left:407px;
+    font-size: 21px;
+    text-decoration: none;
+    line-height: 21px;
+}
+
+
+h1{
+    font-size:15px;
+    text-decoration: underline;
+    color:;
+}
+h6{
+    color:#2e343b;
+    text-decoration: underline;
+    font-size:10px
+    
+    
+}
+
+.empty1{
+    
+    position: relative;
+    background:black;
+    margin:auto;
+    height: 79px;
+    width: 530.00px;
+    top:-1102px;
+    left:-196px;
+}
+
+
+.forum{
+    
+    position: relative;
+    height: 656px;
+    width: 121.44px;
+    background: black;
+    margin:auto;
+    left:425px;
+    top:-2273px;
+}
+
+.forum a{
+    
+    position: relative;
+    font-size:7.0px;
+    line-height: 7px;
+    left:25px;
+    top:45px;
+    text-decoration: none;
+    color: #95948e;
+    z-index: 1;
+}
+
+#topic1{position: absolute;top:52px;color:white;}
+
+#topic2{position: absolute;top:93px; left:26px;color:white;}
+
+#topic3{position: absolute;top:134px; left:26px;color:white;}
+
+#topic4{position: absolute;top:173px;
+left:26px;color:white;}
+
+#topic5{position: absolute;top:215px;color:white;}
+
+#topic6{position: absolute;top:256px;left:--16px;color:white;}
+
+#topic7{position: absolute; top:293px;line-height: 6px;color:white; }
+
+#topic8{position: absolute;top:326px;line-height:6px;color:white;}
+
+#topic9{position: absolute;top:367px;
+line-height:6px;color:white;}
+
+#topic10{position: absolute;top:413px;color:white;}
+
+#topic11{position: absolute;top:453px;color:white;}
+
+#topic12{position: absolute;top:492px;color:white;}
+
+#topic13{position: absolute;top:532px;color:white;}
+
+#topic14{position: absolute;top:571px;color:white;}
+
+.forum img{
+    
+    
+    height = 650.50px; 
+    width = 120.70px;
+    top:-179px;
+}
+
+.advert{
+    
+    position: relative;
+    height: 140.50px;
+    width: 921.94px;
+    background: black;
+    margin:auto;
+    top:-111px;
+
+    
+}
+
+.advert img{
+    
+    position: relative;
+    left: 8px;
+}
+
+.advert a{
+    font-family:"Times New Roman";
+    font-weight:bolder;
+    font-size: 11.5px;
+    color: white;
+    position: absolute;
+    text-decoration: none;
+    top:73px;
+    left:443px;
+}
+
+footer{
+    
+    position: relative;
+    height: 128.00px;
+    width: 921.94px;
+    background:black;
+    margin:auto;
+    top:-110.5px;
+}
+    .footertext1{
+    
+    position: absolute;
+    font-family: times new roman,Neue,Helvetica,sans-serif;
+    font-weight: bold;
+  
+}
+#footerLogo{
+    
+    position: relative;
+    top:17px;
+    left: 11px;
+    
+}
+
+#footerRedLine{
+    
+    position: relative;
+    top:70.5px;
+    right: -5px;
+
+}
+
+
+
+#disclaimer,#TermsofUse,#PrivacyPolicy,#Advertise,#ContactEmail{
+    font-size: 10px;
+    text-decoration: none;
+    color:white;
+
+}
+
+#disclaimer{position: relative; top:-51px;
+left: -213px;
+    
+}
+
+#TermsofUse{position: relative;top:-51px;
+left:473px;}
+
+#ContactEmail{position: relative; top:-51px; left:566px;}
+
+#PrivacyPolicy{position: relative;top:-51px; left:496px; }
+
+#Advertise{position: relative;top:-51px; left:528px; }
+
+#REVIEWS,#NEWS,#COMMUNITY,#MoreSites{
+    position: relative;
+    font-size: 10px;
+    color:white;
+    top:-28px;
+}
+
+#REVIEWS{left:-118px;}
+
+#NEWS{left:-80px;  }
+
+#COMMUNITY{left:-42px;}
+
+#MoreSites{left:-23px}
+    
+
+li {
+    display:list-item;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    line-height: 12px;
+    font-size: 8px;
+    
+    
+}
+
+#LatestReviews,#PS4footer,#PCfooter,#XboxOnefooter,#Switchfooter{
+    
+    font-family: "Times New Roman";
+    font-size: 8px;
+    text-decoration: none;
+    border-style: none;
+    text-align: right;
+    color:white;
+    position: absolute; float:right;
+    
+}
+
+#LatestReviews1,#PS4footer1,#PCfooter1,#XboxOnefooter1,#Switchfooter1{
+    
+    font-family: "Times New Roman";
+    font-size: 8px;
+    text-decoration: none;
+    border-style: none;
+    text-align: right;
+    color:white;
+    position: relative; float:right;
+
+
+}
+
+#forums,#communityblog,#help{
+    
+    font-family: "Times New Roman";
+    font-size: 8px;
+    text-decoration: none;
+    border-style: none;
+    text-align: right;
+    color:white;
+    position: relative; float:right;
+
+}
+
+#IGN,#Gamersyde,#Eurogamer,#Kotaku{
+    
+    font-family: "Times New Roman";
+    font-size: 8px;
+    text-decoration: none;
+    border-style: none;
+    text-align: right;
+    color:white;
+    position: relative; float:right;
+}
+
+#LatestReviews{left:474px; top:44px;}
+
+#PS4footer{left:493px; top:56px;}
+
+#PCfooter{left: 494px; top:67px;}
+
+#XboxOnefooter{left: 483px; top:75px;}
+
+#Switchfooter{left: 487px; top:85px}
+
+
+#LatestReviews1{left:-310px; top:-42px;}
+
+#PS4footer1{left: -281px; top:-31px;}
+
+#PCfooter1{left:-269px;top:-20px;}
+
+#XboxOnefooter1{left:-245px; top:-11px;}
+
+#Switchfooter1{left:-218px; top:-1px}
+
+#forums{left:-104px; Top:-42px;}
+
+#communityblog{left:-60px; top: -31px;}
+
+#help{left: -24px; top: -19px}
+
+
+#IGN{left:84px; Top:-41px;}
+
+#Gamersyde{left:113px; top: -30px;}
+
+#Eurogamer{left: 152px; top: -19px;}
+
+#Kotaku{Left:184px; Top: -08px;}
